@@ -10,12 +10,12 @@ function Hero() {
         <h2 className="text-2xl text-[#22D3EE] py-3">Learn. Build. Grow.</h2>
         <div className="flex items-center gap-2">
           <div className="flex items-center gap-2 text-white py-2">
-            <CalendarRange />
+            <CalendarRange className="text-[#22D3EE]" />
             <p>March 14-16, 2026</p>
           </div>
 
           <div className="flex items-center gap-2 text-white py-2">
-            <MapPin />
+            <MapPin className="text-[#22D3EE]" />
             <p>Brussels</p>
           </div>
 

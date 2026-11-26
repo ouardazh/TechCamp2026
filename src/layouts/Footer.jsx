@@ -8,7 +8,7 @@ import { FaXTwitter, FaLinkedin, FaYoutube} from "react-icons/fa6";
 
 function Footer() {
   return (
-    <footer className="bg-[rgb(5,9,33)] text-white  px-[8%] py-5 flex item-center justify-between" >
+    <footer className="bg-[rgb(0,10,39)] text-white  px-[8%] py-5 flex item-center justify-between" >
         <div>
             <p className='text-2xl font-semibold'>TechCamp</p>
             <p>Learn. Build. Connect.</p>

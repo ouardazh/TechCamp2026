@@ -1,10 +1,11 @@
-import {  } from "lucide-react"
+import { CodeXml } from "lucide-react"
 
 
 function Header() {
   return (
-    <header className="bg-[rgb(5,9,33)] text-white  px-[8%] py-5 flex item-center justify-between" >
-        <div >
+    <header className="bg-[rgb(0,10,39)] text-white  px-[8%] py-5 flex item-center justify-between" >
+        <div className="flex items-center gap-2">
+            <CodeXml className="text-[#22D3EE] font-semibold"/>
             <p className='text-2xl font-semibold'>TechCamp</p>
         </div>
 
@@ -16,7 +17,7 @@ function Header() {
             <a href="">Contact</a>
         </nav>
 
-        <button className='bg-[rgb(118,68,247)] text-white rounded-3xl px-[18px] py-[8px]'>Register Now</button>
+        <button className='bg-[#0EA5FF] text-white rounded-3xl px-[18px] py-[8px] font-semibold'>Register Now</button>
     </header>
   )
 }

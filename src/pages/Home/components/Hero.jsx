@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 
 function Hero() {
   return (
-    <section className="flex items-center bg-[url('src/assets/img/image1.png')] bg-cover bg-center h-[480px]">
-      <div className="px-[8%] py-5">
-        <h1 className="text-7xl text-white font-semibold">TechCamp <span className="text-[#22D3EE]">2026</span></h1>
+    <section className="flex bg-[url('src/assets/img/imageTel.avif')] md:bg-[url('src/assets/img/image1.png')] xl:bg-[url('src/assets/img/image1.png')] bg-cover bg-center h-[480px]">
+      <div className="px-[8%] pt-18">
+        <h1 className="text-5xl md:text-6xl xl:text-7xl text-white font-semibold">TechCamp <span className="text-[#22D3EE]">2026</span></h1>
         <h2 className="text-2xl text-[#22D3EE] py-3">Learn. Build. Grow.</h2>
         <div className="flex items-center gap-2">
           <div className="flex items-center gap-2 text-white py-2">

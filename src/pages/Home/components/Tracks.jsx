@@ -7,7 +7,7 @@ const tracks = [
     features: ["React & Next.js", "Modern Web APIs", "Best Practices"],
     color: "blue",
     tag: "01",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+    image: ""
   },
   {
     title: "UI/UX Design",
@@ -31,15 +31,13 @@ const tracks = [
 function Tracks() {
   return (
     <section className="px-[8%] py-16 bg-[rgb(1,12,34)]">
-      <div className="text-center mx-auto" >
-        <p className="font-semibold  text-[#22D3EE] ">
-          OUR TRACKS
-        </p>
-        <h2 className="text-5xl font-semibold py-4 text-white">Choose Your <span className="text-[#22D3EE]">Track!</span></h2>
-        <p className="text-white pt-1 pb-6">Dive into specialized tracks and level up your skills.</p>
+      <div className="text-center mb-16">
+        <p className="text-[#22D3EE] text-sm font-semibold mb-4">OUR TRACKS</p>
+        <h2 className=" text-white font-bold text-5xl mb-5">Choose Your <span className="text-[#22D3EE]">Track!</span></h2>
+        <p className="text-gray-400 text-white font-bold">Dive into specialized tracks and level up your skills.</p>
       </div>
 
-      <div className="grid grid-cols-3 gap-8 mb-6  ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-6  ">
         {tracks.map((track) => {
             const Icon = track.icon;
           return (

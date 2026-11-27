@@ -38,15 +38,15 @@ const coaches = [
 function Coaches() {
   return (
     <section className="px-[8%] py-16 bg-[rgb(1,12,34)]">
-        <div className="text-center mx-auto">
-            <p className="font-semibold  text-[#22D3EE]">OUR COACHES</p>
-            <h2 className="text-5xl font-semibold py-4 text-white">Meet Our Expert Coaches</h2>
-            <p className="text-white pt-1 pb-6">Learn from industry professionals and passionate educators.</p>
+        <div className="text-center mb-16">
+            <p className="text-sm text-[#22D3EE] font-semibold mb-4">OUR COACHES</p>
+            <h2 className=" text-white font-bold text-5xl mb-5">Meet Our Expert Coaches</h2>
+            <p className="text-gray-400 text-white font-bold mb-6">Learn from industry professionals and passionate educators.</p>
 
         </div>
 
 
-        <div className="grid grid-cols-4 gap-8 mb-6  ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-6  ">
         {coaches.map((coach) => {
             const Icon= coach.icon
             

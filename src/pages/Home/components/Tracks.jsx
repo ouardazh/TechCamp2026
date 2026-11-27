@@ -16,7 +16,7 @@ const tracks = [
     features: ["User-Centered Design", "Prototyping", "Design Systems"],
     color: "violet",
     tag: "02",
-    image: "/images/design.jpg",
+    image: "",
   },
   {
     title: "Data & AI",
@@ -25,7 +25,7 @@ const tracks = [
     features: ["Machine Learning", "Data Analysis", "AI Applications"],
     color: "cyan",
     tag: "03",
-    image: "/images/ai.jpg",
+    image: "",
   },
 ];
 function Tracks() {

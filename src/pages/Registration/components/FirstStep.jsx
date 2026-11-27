@@ -21,7 +21,7 @@ function FirstStep() {
             <input className="bg-[rgb(0,10,39)] text-white  rounded-xl  p-4 mb-3" type="tel" placeholder='+32 00000000'  value={userData.phone} onChange={(e)=>setUserData({...userData, phone: e.target.value})}/>
             
             
-            <button className='bg-[#0EA5FF] text-white rounded-3xl px-[18px] py-[8px] font-semibold hover:bg-sky-700 mt-2 w-[20%]' onClick={()=>setStep(2)}>Next </button>
+            <button className='bg-[#0EA5FF] text-white rounded-3xl px-[18px] py-[8px] font-semibold hover:bg-sky-700 mt-2 w-[100%] md:w-[20%] lg:w-[20%]' onClick={()=>setStep(2)}>Next </button>
         </form>
     </div>
   )

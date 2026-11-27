@@ -25,7 +25,7 @@ function Registration() {
     }
   return (
     <section className="px-[8%] py-16 bg-[rgb(1,12,34)] ">
-        <div className="mx-auto w-[70%] ">
+        <div className="mx-auto  w-[100%] md:w-[70%] lg:w-[70%] ">
             <Stepper activeStep={currentStep -1} className="">
             <Step>
                 <StepLabel></StepLabel>

@@ -37,8 +37,8 @@ const coaches = [
 
 function Coaches() {
   return (
-    <section className="px-[8%] py-16 bg-[rgb(1,12,34)]">
-        <div className="text-center mb-16">
+    <section className="px-[8%] py-8 md:py-16 lg:py-16 bg-[rgb(1,12,34)]">
+        <div className="text-center mb-8 md:mb-16 lg:mb-16">
             <p className="text-sm text-[#22D3EE] font-semibold mb-4">OUR COACHES</p>
             <h2 className=" text-white font-bold text-5xl mb-5">Meet Our Expert Coaches</h2>
             <p className="text-gray-400 text-white font-bold mb-6">Learn from industry professionals and passionate educators.</p>

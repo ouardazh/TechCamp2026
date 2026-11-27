@@ -36,9 +36,9 @@ const faq = [
 function Faq() {
   const [active, setActive] = useState(null);
   return (
-    <section className="px-[8%] py-16 bg-[rgb(1,12,34)]">
+    <section className="px-[8%] py-8 md:py-16 lg:py-16 bg-[rgb(1,12,34)]">
 
-      <div className="text-center mb-16">
+      <div className="text-center mb-8 md:mb-16 lg:mb-16">
         <p className="text-[#22D3EE] text-sm font-semibold mb-4">FAQ</p>
         <h2 className=" text-white font-bold text-5xl mb-5">Frequently Asked <span className="text-[#22D3EE]">Questions</span></h2>
         <p className="text-gray-400 text-white font-bold">Everything you need to know about TechCamp 2026.</p>

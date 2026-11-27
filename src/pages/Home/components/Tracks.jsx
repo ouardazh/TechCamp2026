@@ -30,8 +30,8 @@ const tracks = [
 ];
 function Tracks() {
   return (
-    <section className="px-[8%] py-16 bg-[rgb(1,12,34)]">
-      <div className="text-center mb-16">
+    <section className="px-[8%] py-8 md:py-16 lg:py-16 bg-[rgb(1,12,34)]">
+      <div className="text-center mb-8 md:mb-16 lg:mb-16">
         <p className="text-[#22D3EE] text-sm font-semibold mb-4">OUR TRACKS</p>
         <h2 className=" text-white font-bold text-5xl mb-5">Choose Your <span className="text-[#22D3EE]">Track!</span></h2>
         <p className="text-gray-400 text-white font-bold">Dive into specialized tracks and level up your skills.</p>

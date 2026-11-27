@@ -7,6 +7,7 @@ const tracks = [
     features: ["React & Next.js", "Modern Web APIs", "Best Practices"],
     color: "blue",
     tag: "01",
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
   },
   {
     title: "UI/UX Design",
@@ -15,6 +16,7 @@ const tracks = [
     features: ["User-Centered Design", "Prototyping", "Design Systems"],
     color: "violet",
     tag: "02",
+    image: "/images/design.jpg",
   },
   {
     title: "Data & AI",
@@ -23,6 +25,7 @@ const tracks = [
     features: ["Machine Learning", "Data Analysis", "AI Applications"],
     color: "cyan",
     tag: "03",
+    image: "/images/ai.jpg",
   },
 ];
 function Tracks() {
@@ -40,7 +43,7 @@ function Tracks() {
         {tracks.map((track) => {
             const Icon = track.icon;
           return (
-            <div key={track.tag} className="bg-[rgb(7,20,53)] text-white px-3 pb-4 rounded-xl shadow-sm shadow-[rgb(8,192,253)] hover:-translate-y-2 transition-all duration-300">
+            <div style={{ backgroundImage:`url(${track.image})`}} key={track.tag} className="bg-cover text-white px-3 pb-4 rounded-xl shadow-sm shadow-[rgb(8,192,253)] hover:-translate-y-2 transition-all duration-300 " >
                 <div className="text-[rgb(34,211,238)] rounded-xl p-3 w-fit">
                      <Icon size={40}/>
                 </div>
